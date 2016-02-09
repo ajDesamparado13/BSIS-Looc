@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIS.webAPI", "BSIS\BSIS.webAPI.csproj", "{791D591E-672C-47BC-90E4-BC1A0F0E5725}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BSIS.Admin(1)", "http://localhost:2319", "{CBA6D163-789F-42E9-92EC-9CDFD1FC0A25}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2319"
+		Debug.AspNetCompiler.PhysicalPath = "..\BSIS.Admin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2319\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2319"
+		Release.AspNetCompiler.PhysicalPath = "..\BSIS.Admin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2319\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\BSIS.Admin\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BSIS.Client(2)", "http://localhost:2318", "{2B790BB7-C3FC-429F-AD9B-30B0D027259A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2318"
+		Debug.AspNetCompiler.PhysicalPath = "..\BSIS.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2318\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2318"
+		Release.AspNetCompiler.PhysicalPath = "..\BSIS.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2318\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\BSIS.Client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791D591E-672C-47BC-90E4-BC1A0F0E5725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791D591E-672C-47BC-90E4-BC1A0F0E5725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791D591E-672C-47BC-90E4-BC1A0F0E5725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791D591E-672C-47BC-90E4-BC1A0F0E5725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA6D163-789F-42E9-92EC-9CDFD1FC0A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA6D163-789F-42E9-92EC-9CDFD1FC0A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA6D163-789F-42E9-92EC-9CDFD1FC0A25}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA6D163-789F-42E9-92EC-9CDFD1FC0A25}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2B790BB7-C3FC-429F-AD9B-30B0D027259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B790BB7-C3FC-429F-AD9B-30B0D027259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B790BB7-C3FC-429F-AD9B-30B0D027259A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B790BB7-C3FC-429F-AD9B-30B0D027259A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
